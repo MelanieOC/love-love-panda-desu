@@ -1,8 +1,96 @@
 /*
-Colores & tipografía: 
+Colores & tipografía:
 Verde - #ABE188;
 Rosa - #F78E69;
 font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+}
+/*Seccion encabezado*/
+.encabezado{
+  background-color:  #F78E69;
+  padding: 60px 20px;
+  color: white;
+  text-align: right;
+}
+
+.encabezado h1{
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+
+/*Seccion imagen 1*/
+
+.imagen img{
+  filter: grayscale(100%);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+#imagen1{
+  height: 450px;
+}
+
+/*Seccion about*/
+.color{
+  background-color: #ABE188;
+  padding: 50px 0;
+	border-top: 20px solid #F78E69;
+	border-bottom: 20px solid #F78E69;
+  height: 500px
+}
+#contenido{
+  text-align: center;
+	background: #F78E69;
+	color: white;
+	padding: 20px;
+	font-size: 1.5em;
+	width: 42%;
+	margin: 0 auto;
+}
+#contenido h1{
+  padding: 15px 0;
+  font-size: 90%;
+}
+
+/*Seccion imagen 2*/
+/*Seccion imagen 3*/
+#imagen2, #imagen3{
+  height: 650px;
+}
+#imagen2 img, #imagen3 img{
+  object-position: 0px 0px;
+}
+
+/*Seccion pictures*/
+#fotos{
+  padding-top: 90px;
+  text-align: center;
+  color: white;
+}
+#fotos h1{
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.photo{
+  box-sizing: content-box;
+  border: 10px solid white;
+  margin: 30px;
+}
+
+/*Footer*/
+footer{
+  background-color: #F78E69;
+  color: white;
+  text-align: right;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
