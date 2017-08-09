@@ -16,14 +16,14 @@ font-family: 'Raleway', sans-serif;
 /*Seccion encabezado*/
 .encabezado{
   background-color:  #F78E69;
-  padding: 60px 30px;
+  padding: 80px 30px 50px 30px;
   color: white;
   text-align: right;
 }
 
 .encabezado h1{
-  font-size: 3em;
-  padding-bottom: 15px;
+  font-size: 3.5em;
+  padding-bottom: 20px;
 }
 
 /*Seccion imagen 1*/
@@ -38,13 +38,17 @@ font-family: 'Raleway', sans-serif;
   height: 450px;
 }
 
+.imagen img:hover{
+  filter: grayscale(0%);
+}
+
 /*Seccion about*/
 .color{
   background-color: #ABE188;
   padding: 50px 0;
 	border-top: 20px solid #F78E69;
 	border-bottom: 20px solid #F78E69;
-  height: 500px
+  height: 550px
 }
 #contenido{
   text-align: center;
@@ -52,11 +56,13 @@ font-family: 'Raleway', sans-serif;
 	color: white;
 	padding: 20px;
 	font-size: 1.5em;
-	width: 42%;
+	width: 45%;
 	margin: 0 auto;
+  line-height: 22px;
 }
 #contenido h1{
-  padding: 15px 0;
+  padding-top: 35px;
+  padding-bottom: 15px;
   font-size: 90%;
 }
 
@@ -84,6 +90,10 @@ font-family: 'Raleway', sans-serif;
   border: 10px solid white;
   margin: 30px;
 }
+.photo:hover{
+  filter: sepia(50%);
+}
+
 
 /*Footer*/
 footer{
